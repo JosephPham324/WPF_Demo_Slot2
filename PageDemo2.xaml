@@ -4,8 +4,7 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:WPF_Demo_Slot2"
-      mc:Ignorable="d" 
-      d:DesignHeight="323" d:DesignWidth="500"
+      mc:Ignorable="d"
       Title="PageDemo2">
 
     <Grid Background="PaleTurquoise">
