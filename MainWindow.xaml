@@ -1,0 +1,29 @@
+﻿<Window x:Class="WPF_Demo_Slot2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Demo_Slot2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="800"
+        WindowStartupLocation ="CenterScreen">
+    <Grid>
+        <Frame x:Name="frMain" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" NavigationUIVisibility="Visible"/>
+        <Button Content="Canvas" Name="btnToPage01" Click="btnToPage01_Click"  
+        HorizontalAlignment="Left" Margin="206,203,0,203" 
+        Height="28" Width="79"/>
+        <Button Content="WrapPanel" Name="btnToPage02" Click="btnToPage02_Click"
+        HorizontalAlignment="Left" Margin="290,203,0,203" 
+        Height="28" Width="79"
+                />
+        <Button Content="StackPanel" x:Name="btnToPage03" Click="btnToPage03_Click"  
+            HorizontalAlignment="Left" Margin="374,203,0,203" 
+            Height="28" Width="79"/>
+        <Button Content="Grid" x:Name="btnToPage04" Click="btnToPage04_Click"  
+            HorizontalAlignment="Left" Margin="458,203,0,203" 
+            Height="28" Width="79"/>
+        <Button Content="DockPanel" x:Name="btnToPage05" Click="btnToPage05_Click"  
+            HorizontalAlignment="Left" Margin="542,203,0,203" 
+            Height="28" Width="79"/>
+    </Grid>
+</Window>
